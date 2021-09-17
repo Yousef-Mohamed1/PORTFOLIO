@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+body{
+        background-color: #FFD369;
+}
+.sign-box{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    transform: translate(20%,13%);
+    background: rgb(245, 245, 245);
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+}
+.box2{
+    position: relative;
+    background-image: url(illustration-hero.svg);
+    background-size: 1300px;
+    background-position-x: -330px;
+    margin-left: -90px;
+    width: 47%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    float: right;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.199);
+}
+.color{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFD369;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+.wel{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    z-index: 12;
+    transform: translate(24%,330%);
+    padding: 7px 30px;
+    background: #222831;
+    border-radius: 60px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.541);
+}
+.sign{
+    position: relative;
+    text-align: center;
+    top: 40px;transform: translate(-4%);
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222831;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.line{
+    position: relative;
+    background: #222831;
+    width: 140px;
+    left: 20%;
+    height: 2px;
+    top: 50px;
+}
+.email{
+    position: relative;
+    top: 130px;
+    transform: translateX(52%);
+    width: 230px;
+    height: 33px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 7px 30px;
+    background: rgb(245, 245, 245);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+    transition: 0.3s;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.466);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.email::placeholder{
+    font-size: 23px;
+    opacity: 0.5;
+}
+.email:focus{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.322);
+    padding: 10px 40px;
+    top: 130px;
+    transform: translateX(45%);
+}
+.pass{
+    position: relative;
+    top: 170px;
+    transform: translateX(52%);
+    width: 230px;
+    height: 33px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 7px 30px;
+    background: rgb(245, 245, 245);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.13);
+    transition: 0.3s;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.466);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pass::placeholder{
+    opacity: 0.5;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pass:focus{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.322);
+    top: 170px;
+    transform: translateX(45%);
+    padding: 10px 40px;
+}
+.log-btn{
+    position: relative;
+    top: 230px;
+    transform: translateX(55%);
+    width: 280px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background: #FFD369;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 7px 30px 7px 30px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.log-btn:hover{
+    box-shadow: 0 0 15px #FFD369;
+}
+.have-no{
+    position: relative;
+    top: 260px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.336);
+    transform: translateX(15%);
+}
+.join{
+    position: relative;
+    color: #FFD369;
+    background: rgb(245, 245, 245);
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 
+    5px -4px 9px 0px rgba(0, 0, 0, 0.199),
+    -9px 8px 3px 0px rgb(255, 255, 255);
+    border-radius: 30px;
+    border: none;
+    padding: 7px 38px;
+    width: 230px;
+    transform: translateX(78%);
+    cursor: pointer;
+    top: 290px;
+    transition: 0.2s ease-in-out;
+}
+.join:hover{
+    background: #FFD369;
+    color: rgb(255, 255, 255);
+}
